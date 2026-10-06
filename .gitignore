@@ -16,3 +16,14 @@ scratch
 
 # Binarios locales del audio engine (yt-dlp, cloudflared)
 server/bin/
+# Basura habitual (reglas de higiene de Command)
+NUL
+*.log
+*.bak
+*.orig
+*.tmp
+*.swp
+Thumbs.db
+.env.*
+!.env.example
+.claude/settings.local.json
